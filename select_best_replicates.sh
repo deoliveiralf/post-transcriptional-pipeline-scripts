@@ -6,8 +6,8 @@
 #SBATCH --mem=4G
 
 # Input file from previous script
-INPUT_FILE="/temporario2/8412199/slurm-tools/small-libraries/fastp-data-2/logs/fastp_summary_with_percentages.txt"
-OUTPUT_FILE="/temporario2/8412199/slurm-tools/small-libraries/fastp-data-2/logs/best_replicates_summary.txt"
+INPUT_FILE="/path/to/your/directory/logs/fastp_summary_with_percentages.txt"
+OUTPUT_FILE="/path/to/your/directory/logs/best_replicates_summary.txt"
 
 # Debug: Check if input file exists and has content
 if [ ! -f "$INPUT_FILE" ]; then
