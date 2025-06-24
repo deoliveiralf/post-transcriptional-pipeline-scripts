@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Set paths and parameters
-INDEX="/home/lfdeoliveira/bioinfo/CleaveLand4-master/peanut-degradome/bowtie-data"
-INPUT_DIR="/home/lfdeoliveira/bioinfo/CleaveLand4-master/peanut-degradome/bowtie-data"
-OUTPUT_DIR="/home/lfdeoliveira/bioinfo/CleaveLand4-master/peanut-degradome/bowtie-data/results"
+INDEX="/path/to/your/directory/bowtie-data"
+INPUT_DIR="/path/to/your/directory/bowtie-data"
+OUTPUT_DIR="/path/to/your/directory/bowtie-data/results"
 
 # Create output directory if it doesn't exist
 mkdir -p $OUTPUT_DIR
