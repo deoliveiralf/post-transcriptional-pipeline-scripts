@@ -11,9 +11,9 @@
 module load samtools/1.21
 
 # Define paths
-INPUT_FILE=/temporario2/8412199/small-degradome-seq/degradome-libraries/trimmed-data/P_18.fq.gz
-OUTPUT_DIR=/temporario2/8412199/small-degradome-seq/degradome-libraries/bowtie-trimmed-results/
-GENOME_INDEX=/temporario2/8412199/slurm-tools/reference-to-bowtie/01-rRNA-index/index_base_name
+INPUT_FILE=/path/to/your/directory/*.fq.gz
+OUTPUT_DIR=/path/to/your/directory/bowtie-trimmed-results/
+GENOME_INDEX=/path/to/your/directory/index_base_name
 REPORT_DIR=${OUTPUT_DIR}/reports
 LOGS_DIR=${OUTPUT_DIR}/logs
 ALIGNMENT_DIR=${OUTPUT_DIR}/alignments
