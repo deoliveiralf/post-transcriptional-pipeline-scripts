@@ -6,8 +6,8 @@
 #SBATCH --mem=4G
 
 # Define the input directory
-INPUT_DIR="/temporario2/8412199/slurm-tools/small-libraries/fastp-data-2/logs"
-OUTPUT_FILE="/temporario2/8412199/slurm-tools/small-libraries/fastp-data-2/logs/fastp_summary_with_percentages.txt"
+INPUT_DIR="/path/to/your/directory/logs"
+OUTPUT_FILE="/path/to/your/directory/logs/fastp_summary_with_percentages.txt"
 
 # Initialize the output file with header
 echo -e "File\tTotal Reads Before\tTotal Reads After\tAfter %\tPassed Filter\tPassed %\tFailed Low Quality\tLow Quality %\tFailed Too Many N\tToo Many N %\tFailed Too Short\tToo Short %\tFailed Too Long\tToo Long %" > $OUTPUT_FILE
