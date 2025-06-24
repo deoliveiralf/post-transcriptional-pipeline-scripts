@@ -3,7 +3,7 @@ library(stringr)
 library(dplyr)
 
 ### File Path Configuration -----------------------------------------
-working_dir <- "path/to/your/directory"
+working_dir <- "/path/to/your/directory/"
 setwd(working_dir)
 
 input_file <- file.path(working_dir, "Entire_list_conserved and novel miRNAs.txt")
