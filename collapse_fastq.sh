@@ -13,9 +13,9 @@ set -e
 ./seqkit
 
 # Input and output file names - replace these with your actual files
-INPUT_FILE="/temporario2/8412199/small-degradome-seq/small-libraries/04-fastp-bowtie-files/bowtie-06-scRNA/unaligned/concatenated_unaligned.fastq.gz"
-OUTPUT_FASTQ="/temporario2/8412199/small-degradome-seq/small-libraries/04-fastp-bowtie-files/bowtie-06-scRNA/unaligned/collapsed_reads.fastq"
-OUTPUT_FASTA="/temporario2/8412199/small-degradome-seq/small-libraries/04-fastp-bowtie-files/bowtie-06-scRNA/unaligned/collapsed_reads.fasta"
+INPUT_FILE="/path/to/your/directory/concatenated_unaligned.fastq.gz"
+OUTPUT_FASTQ="/path/to/your/directory/collapsed_reads.fastq"
+OUTPUT_FASTA="/path/to/your/directory/collapsed_reads.fasta"
 TEMP_DIR="temp_collapse"
 
 # Create temporary directory
