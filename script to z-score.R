@@ -3,8 +3,8 @@ library(tidyverse)
 library(ComplexHeatmap)
 
 ### 1. File Reading & Data Preparation -----------------------------------------
-input_file <- "C:/Users/Leandro/OneDrive - usp.br/LIGNINLAB/Projeto FAPESP CNPq - Setaria miRNAs/R analysis/5thx3th_DEGs_filtered_norm_counts_renamed_FINAL.txt"  # Replace with your actual file path
-output_dir <- "C:/Users/Leandro/OneDrive - usp.br/LIGNINLAB/Projeto FAPESP CNPq - Setaria miRNAs/R analysis"
+input_file <- "/path/to/your/directory/file"  # Replace with your actual file path
+output_dir <- "/path/to/your/directory/"
 
 # Read data with proper formatting
 counts_data <- read.delim(
