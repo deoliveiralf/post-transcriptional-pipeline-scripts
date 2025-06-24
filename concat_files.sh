@@ -7,8 +7,8 @@
 
 # Define source and destination directories
 # Replace these with your actual paths
-SRC_DIR="/temporario2/8412199/small-degradome-seq/small-libraries/fastp-bowtie-files/bowtie-06-scRNA/unaligned"
-DEST_DIR="/temporario2/8412199/small-degradome-seq/small-libraries/mirdeep"
+SRC_DIR="/path/to/your/directory/unaligned"
+DEST_DIR="/path/to/your/directory"
 OUTPUT_FILE="$DEST_DIR/concatenated_output.fastq.gz"
 
 # Create destination directory if it doesn't exist
