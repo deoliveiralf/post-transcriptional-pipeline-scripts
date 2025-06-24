@@ -8,10 +8,10 @@
 #SBATCH --mem=32G
 
 # Define paths
-INPUT_FILE=/temporario2/8412199/small-degradome-seq/degradome-libraries/P_18.fq.gz
-OUTPUT_DIR=/temporario2/8412199/small-degradome-seq/degradome-libraries/trimmed-data
-ADAPTERS_DIR=/temporario2/8412199/Trimmomatic-0.39/adapters
-TRIMMOMATIC_JAR=/temporario2/8412199/Trimmomatic-0.39/trimmomatic-0.39.jar
+INPUT_FILE=/path/to/your/directory/*.fq.gz
+OUTPUT_DIR=/path/to/your/directory/trimmed-data
+ADAPTERS_DIR=/path/to/your/directory/Trimmomatic-0.39/adapters
+TRIMMOMATIC_JAR=/path/to/your/directory/Trimmomatic-0.39/trimmomatic-0.39.jar
 REPORT_DIR=${OUTPUT_DIR}/reports
 LOGS_DIR=${OUTPUT_DIR}/logs
 
