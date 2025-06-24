@@ -3,7 +3,7 @@ library(stringr)
 library(dplyr)
 
 ### File Path Configuration -----------------------------------------
-working_dir <- "C:/Users/Leandro/OneDrive - usp.br/LIGNINLAB/Projeto FAPESP CNPq - Setaria miRNAs/R analysis"
+working_dir <- "path/to/your/directory"
 setwd(working_dir)
 
 input_file <- file.path(working_dir, "Entire_list_conserved and novel miRNAs.txt")
