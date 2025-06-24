@@ -77,8 +77,8 @@ submit_next_batch() {
 #SBATCH --mem=16G
 
 # Directory setup - do this early as it's needed for file checking
-INPUT_DIR="/temporario2/8412199/small-degradome-seq/degradome-libraries"
-OUTPUT_DIR="/temporario2/8412199/small-degradome-seq/degradome-libraries/fastp-data"
+INPUT_DIR="/path/to/your/directory/"
+OUTPUT_DIR="/path/to/your/directory/fastp-data"
 FASTP_DIR="${OUTPUT_DIR}/fastp_trimmed"
 QC_DIR="${OUTPUT_DIR}/fastqc_results"
 LOG_DIR="${OUTPUT_DIR}/logs"
