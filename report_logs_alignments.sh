@@ -6,8 +6,8 @@
 #SBATCH --mem=2G
 
 # Define directories
-BASE_DIR="/temporario2/8412199/small-degradome-seq/small-libraries/fastp-bowtie-remade"
-OUTPUT_DIR="/temporario2/8412199/small-degradome-seq/small-libraries/fastp-bowtie-remade/alignment_summaries"
+BASE_DIR="/path/to/your/directory/"
+OUTPUT_DIR="/path/to/your/directory/alignment_summaries"
 SUBDIRS=("bowtie-01-rRNA-index" "bowtie-02-tRNA-index" "bowtie-03-snRNA-index" "bowtie-04-snoRNA-index" "bowtie-05-tmRNA-index" "bowtie-06-scRNA-index")
 
 # Create output directory if it doesn't exist
