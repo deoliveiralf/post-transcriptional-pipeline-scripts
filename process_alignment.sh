@@ -6,9 +6,9 @@
 #SBATCH --mem=8G
 
 # Define directories
-BASE_DIR="/temporario2/8412199/small-degradome-seq/small-libraries/fastp-bowtie-files"
-OUTPUT_DIR="/temporario2/8412199/small-degradome-seq/small-libraries/fastp-bowtie-files/alignment_summaries"
-TOTAL_READS_FILE="/temporario2/8412199/small-degradome-seq/small-libraries/fastp-results/logs/best_replicates_summary.txt"
+BASE_DIR="/path/to/your/directory/"
+OUTPUT_DIR="/path/to/your/directory/alignment_summaries"
+TOTAL_READS_FILE="/path/to/your/directory/logs/best_replicates_summary.txt"
 SUBDIRS=("bowtie-01-rRNA" "bowtie-02-tRNA" "bowtie-03-snRNA" "bowtie-04-snoRNA" "bowtie-05-tmRNA" "bowtie-06-scRNA")
 
 # Create output directory if it doesn't exist
