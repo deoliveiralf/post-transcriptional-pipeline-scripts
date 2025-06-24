@@ -4,7 +4,7 @@
 
 ### File Path Configuration -----------------------------------------
 # Set your working directory here
-working_dir <- "C:/Users/Leandro/OneDrive - usp.br/LIGNINLAB/Projeto FAPESP CNPq - Setaria miRNAs/R analysis"
+working_dir <- "/path/to/your/directory/"
 setwd(working_dir)
 
 # Input files
