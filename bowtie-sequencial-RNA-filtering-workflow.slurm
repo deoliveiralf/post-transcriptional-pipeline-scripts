@@ -11,9 +11,9 @@
 module load samtools/1.21
 
 # Define base paths
-BASE_INPUT_DIR=/temporario2/8412199/small-degradome-seq/small-libraries/fastp-best_replicates
-BASE_OUTPUT_DIR=/temporario2/8412199/small-degradome-seq/small-libraries/fastp-bowtie-remade
-REFERENCE_BASE_DIR=/temporario2/8412199/slurm-tools/reference-to-bowtie/
+BASE_INPUT_DIR=/path/to/your/directory/
+BASE_OUTPUT_DIR=/path/to/your/directory/
+REFERENCE_BASE_DIR=/path/to/your/directory/reference-to-bowtie/
 
 # Define reference genome indices in order
 REFERENCES=(
