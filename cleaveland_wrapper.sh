@@ -4,7 +4,7 @@
 # Usage: ./cleaveland_wrapper.sh
 
 # Configuration
-CLEAVELAND_PATH="/dados/home/lfdeoliveira/Degradome-analysis/CleaveLand4/CleaveLand4.pl"  # <-- ADD THIS LINE to set the path
+CLEAVELAND_PATH="/path/to/your/directory/CleaveLand4.pl"  # <-- ADD THIS LINE to set the path
 LOG_FILE="cleaveland_run_$(date +%Y%m%d_%H%M%S).log"
 PROGRESS_FILE="cleaveland_progress.tmp"
 DEGRADOME_FILE="degradome_reads.fasta"
