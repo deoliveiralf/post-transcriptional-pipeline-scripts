@@ -8,7 +8,7 @@ library(tictoc) # For timing performance
 # ===== Configuration =====
 
 # File paths configuration
-working_dir <- "path/to/your/directory"
+working_dir <- "/path/to/your/directory/"
 setwd(working_dir)
 
 # Input files
