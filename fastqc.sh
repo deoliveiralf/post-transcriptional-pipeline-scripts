@@ -24,11 +24,11 @@ echo "Started on: $(date)"
 module load fastqc/0.12.1
 
 # Create output directory
-OUTPUT_DIR="/temporario2/8412199/small-degradome-seq/degradome-libraries/fastqc-results"
+OUTPUT_DIR="/path/to/your/directory/fastqc-results"
 mkdir -p $OUTPUT_DIR
 
 # Directory containing your FASTQ files
-INPUT_DIR="/temporario2/8412199/small-degradome-seq/degradome-libraries"
+INPUT_DIR="/path/to/your/directory/"
 
 # Run FastQC on all FASTQ files in the input directory
 ./fastqc \
