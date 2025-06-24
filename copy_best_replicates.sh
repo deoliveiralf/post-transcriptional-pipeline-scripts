@@ -6,9 +6,9 @@
 #SBATCH --mem=4G
 
 # Define the directories and input file
-SOURCE_DIR="/temporario2/8412199/small-degradome-seq/small-libraries/fastp-data-2/fastp_trimmed"
-DEST_DIR="/temporario2/8412199/small-degradome-seq/small-libraries/fastp-best_replicates"
-SUMMARY_FILE="/temporario2/8412199/slurm-tools/small-libraries/fastp-data-2/logs/best_replicates_summary.txt"
+SOURCE_DIR="/path/to/your/directory/fastp_trimmed"
+DEST_DIR="/path/to/your/directory/fastp-best_replicates"
+SUMMARY_FILE="/path/to/your/directory/best_replicates_summary.txt"
 
 # Create destination directory if it doesn't exist
 mkdir -p "$DEST_DIR"
